@@ -48,7 +48,7 @@ public class Movement : MonoBehaviour
 
     private void Move()
     {
-        bool isReadyToJump = Input.GetAxis("Vertical") > 0 & _isGrounded ? true: false;
+        bool isReadyToJump = Input.GetAxis("Vertical") > 0 & _isGrounded;
 
         if (Input.GetAxis("Horizontal") != 0)
         {

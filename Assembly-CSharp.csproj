@@ -60,6 +60,8 @@
     <Compile Include="Assets\JMO Assets\Cartoon FX\Demo\Assets\CFX_Demo_RotateCamera.cs" />
     <Compile Include="Assets\JMO Assets\Cartoon FX\Scripts\CFX_LightIntensityFade.cs" />
     <Compile Include="Assets\Scripts\forCoin\CoinsGenerator.cs" />
+    <Compile Include="Assets\Scripts\forCoin\GarbageCollector.cs" />
+    <Compile Include="Assets\Scripts\forCoin\GameFinish.cs" />
     <Compile Include="Assets\JMO Assets\Cartoon FX\Scripts\CFX_AutoRotate.cs" />
     <Compile Include="Assets\Scripts\forEnemyKnight\WaypointMovement.cs" />
     <Compile Include="Assets\Scripts\forKnight\Movement.cs" />
@@ -67,14 +69,12 @@
     <Compile Include="Assets\JMO Assets\Cartoon FX\Demo\Assets\CFX_Demo_RandomDirectionTranslate.cs" />
     <Compile Include="Assets\JMO Assets\Cartoon FX\Demo\Assets\CFX_Demo_RandomDir.cs" />
     <Compile Include="Assets\JMO Assets\Cartoon FX\Demo\Assets\CFX_Demo_Translate.cs" />
+    <Compile Include="Assets\Scripts\forCoin\Detector.cs" />
     <Compile Include="Assets\Scripts\forKnight\PlayerMovementController.cs" />
     <Compile Include="Assets\JMO Assets\Cartoon FX\Demo\Assets\CFX_Demo_New.cs" />
     <Compile Include="Assets\Scripts\forCoin\Coin.cs" />
     <Compile Include="Assets\JMO Assets\Cartoon FX\Scripts\CFX_LightFlicker.cs" />
     <Compile Include="Assets\JMO Assets\Cartoon FX\Scripts\CFX_AutoDestructShuriken.cs" />
-    <Compile Include="Assets\Scripts\forCoin\Destroy.cs" />
-    <Compile Include="Assets\Scripts\forCoin\Detector.cs" />
-    <Compile Include="Assets\Scripts\forCoin\GameFinish.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Knight Files\Read Me.txt" />

@@ -1,5 +1,6 @@
 using UnityEngine;
 
+[RequireComponent(typeof(SpriteRenderer))]
 public class WaypointMovement : MonoBehaviour
 {
     [SerializeField] private Transform _path;
@@ -28,7 +29,7 @@ public class WaypointMovement : MonoBehaviour
 
         transform.position = Vector3.MoveTowards(transform.position, target.position, _speed * Time.deltaTime);
 
-        _spriteRenderer.flipX = _currentPoint == 0 ? true : false;
+        _spriteRenderer.flipX = _currentPoint == 0;
 
         if(transform.position == target.position)
         {

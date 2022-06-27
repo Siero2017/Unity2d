@@ -2,9 +2,9 @@ using UnityEngine;
 
 public class CoinsGenerator : MonoBehaviour
 {
-    // Скрипт в игре не учавствует
+    // this script is not included in the game
     [SerializeField] private Transform _spawnPoint;
-    [SerializeField] private GameObject _coin;
+    [SerializeField] private Coin _coin;
 
     private Transform[] _spawnPoints;
     private int _currentSpawnPoint = 0;
